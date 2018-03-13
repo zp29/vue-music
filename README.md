@@ -1,6 +1,6 @@
 # music
 
-> 这是一个音乐播放器。
+> 这是一个Vue音乐播放器。
 
 ## Build Setup
 
