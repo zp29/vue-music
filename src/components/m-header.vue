@@ -13,7 +13,9 @@ export default {
 <style lang="less" scoped>
 
 @import '../tools/css/var';
+// 全部都是变量...
 @import '../tools/css/min';
+// 引入一些函数 
 
 .header {
   overflow: hidden;

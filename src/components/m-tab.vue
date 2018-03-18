@@ -25,7 +25,9 @@ export default {
 <style lang="less" scoped>
 
 @import '../tools/css/var';
+// 全部都是变量...
 @import '../tools/css/min';
+// 引入一些函数 
 
   .m-tab {
     margin: 0;
@@ -49,10 +51,12 @@ export default {
       color: @a-color;
     }
     .router-link-exact-active.router-link-active {
+    // 当前页面是啥导航就是啥
       background-color: @a-hover-bg;
       color: @a-hover-color;
       border-bottom-left-radius: @btn-radius;
       border-bottom-right-radius: @btn-radius;
+      // 下面的圆角...
     }
   }
 </style>

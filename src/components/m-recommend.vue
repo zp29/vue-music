@@ -8,7 +8,7 @@
 export default {
 
   name: 'recommend',
-
+  
   data () {
     return {
 
