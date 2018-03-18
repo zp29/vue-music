@@ -4,7 +4,7 @@
     <!-- LOGO + 标题 -->
     <m-tab></m-tab>
     <!-- Router 导航-->
-    <router-view></router-view>
+    <router-view class="content"></router-view>
   </div>
 </template>
 
@@ -24,6 +24,7 @@ export default {
 
     }
   },
+
   components: {
     MHeader,
     MTab
@@ -32,4 +33,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  
 </style>
